@@ -1,0 +1,6 @@
+{
+  "name": "PantryChef",
+  "description": "An AI-powered recipe generator for students to turn leftover pantry ingredients into delicious, budget-friendly meals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, sans-serif;
+}
+
+/* Enable class-based dark mode for Tailwind 4 */
+@variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-pantry-tag: #E2E8F0;
+  --text-pantry-tag: #475569;
+  --bg-recipe-card: #ffffff;
+  --border-recipe-card: #E2E8F0;
+  --bg-page: #F8FAFC;
+}
+
+.dark {
+  --bg-pantry-tag: #1E293B;
+  --text-pantry-tag: #94A3B8;
+  --bg-recipe-card: #1E293B;
+  --border-recipe-card: #334155;
+  --bg-page: #0F172A;
+}
+
+body {
+  background-color: var(--bg-page);
+  transition: background-color 0.2s ease;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.pantry-tag {
+  background: var(--bg-pantry-tag);
+  color: var(--text-pantry-tag);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nutrition-pill {
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-card {
+  transition: all 0.15s ease;
+  border: 1px solid var(--border-recipe-card);
+  background-color: var(--bg-recipe-card);
+}
+.recipe-card:hover {
+  border-color: #22C55E;
+  background-color: #F0FDF4;
+}
+.dark .recipe-card:hover {
+  background-color: #064E3B;
+}
