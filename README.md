@@ -70,7 +70,7 @@ flowchart TD
 
 # Suggested Meals with 1-2 ingredients missing:
 <img width="1604" height="803" alt="Screenshot 2026-04-21 155340" src="https://github.com/user-attachments/assets/d5cade30-2ec7-4887-84bd-e6748ee02ad7" />
-
+<br/ >
 <img width="1661" height="837" alt="Screenshot 2026-04-21 155453" src="https://github.com/user-attachments/assets/a699d85a-bc0c-468e-b948-f1195836028d" />
 
 
