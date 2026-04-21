@@ -65,7 +65,7 @@ flowchart TD
 
 # Suggested Meals with 100% ingredient match: 
 <img width="1606" height="804" alt="Screenshot 2026-04-21 155126" src="https://github.com/user-attachments/assets/a14bc3fe-4433-4d4a-8707-684148245c25" />
-
+<br/ >
 <img width="1650" height="832" alt="Screenshot 2026-04-21 155239" src="https://github.com/user-attachments/assets/f686c422-5527-48fd-bda4-2ceecc8e0c2c" />
 
 # Suggested Meals with 1-2 ingredients missing:
