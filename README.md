@@ -13,12 +13,15 @@ nutritional information.
 * Beginner-friendly recipes 💡
 
 ## How it works
+
+```mermaid
 flowchart TD 
    A[User Inputs Ingredients] --> B[Frontend (React + Vite)] 
    B --> C[Construct Prompt with Ingredients] 
    C --> D[Gemini API Request] D --> E[Gemini 3 Flash Model Processing] 
    E --> F[Generated Recipes + Instructions + Nutrition] 
    F --> G[Frontend Displays Results to User]
+```
 
 ## Run Locally
 
