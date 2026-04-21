@@ -1,12 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## Overview
+-----------------------------------------------------------------------------------------------------------------------------------
+This project is a web application designed to help students cook simple, affordable, and nutritious meals using the ingredients they already have. 
 
-# Run and deploy your AI Studio app
+Students often face tight budgets and limited groceries. This app solves that by allowing users to input available ingredients and receive AI-generated meal suggestions, complete with cooking instructions and estimated 
+nutritional information.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/d5a44fe2-f869-454c-9a72-10e1d643302b
+## Features
+* Input available ingredients (pantry/fridge)
+* AI-generated recipe suggestions
+* Step-by-step cooking instructions
+* Basic nutritional estimates (protein, carbs, fats)
+* Focus on quick and budget-friendly meals
+* Beginner-friendly recipes
 
 ## Run Locally
 
